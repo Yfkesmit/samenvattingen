@@ -52,9 +52,11 @@ een bayesion netwerk bestaat uit:
 2. A set of _tables for each node_ in the graph, representing conditional probability distributions
    
 DAG: 
+
 ![](plaatjes/DAG.png)
 
 A set of tables for each node:
+
 ![](plaatjes/setoftablesforeachnode.png)
 
 Semantiek:
@@ -63,6 +65,7 @@ Semantiek:
 2. Is a compact representation of the joint probability distribution over the variables
    
 formule voor de kansverdeling gedefinieerd door een Bayesiaans netwerk:
+
 ![](plaatjes/BN%20chain%20rule.png)
 
 
@@ -105,6 +108,7 @@ Crisp: harde lijnen, dingen zijn zoals ze zijn.
 Fuzzy: multi-valued, degrees of membership en degrees of truth. accepteert dat dingen waar en niet waar tegelijkertijd kunnen zijn. (sigmoid, gaussian and pi)
 
 notatie fuzzy (sub)set:
+
 ![](plaatjes/fuzzynotation.png)
 
 ### je kent voor- en nadelen van het gebruik van fuzzy logic/sets  
@@ -142,9 +146,11 @@ operatoren:
 
 ### je kent de operatoren die fuzzy sets op crips sets afbeelden (core, support, alpha-cut), en kan die toepassen 							 
 Alpha-cut:
+
 ![](plaatjes/fuzzyalphacut.png)
 
 Core en support:
+
 ![](plaatjes/fuzzycoresupport.png)
 
 ### je kent de vier stappen van Mamdani fuzzy inference en kan die toepassen 		
@@ -166,6 +172,7 @@ clipping:
 ![](plaatjes/clipping.png)
 
 scaling:
+
 ![](plaatjes/scaling.png)
 
 # Classical/Deterministic planning
@@ -229,7 +236,7 @@ STRIPS solution:
     - e.g.the number of people in the store
 - ‘inferred’ facts are not carried over and must be re-inferred
     - Avoids making mistakes, perhaps inefficient.
-    - 
+  
 ### je kent overeenkomsten en verschillen tussen STRIPS en GOAP, en weet wat insistence en discontentment is, en hoe je dat laatste berekent
 GOAP (goal oriented action planning): 
 
@@ -295,6 +302,7 @@ reactive planning:
 ### je kent de semantiek en eigenschappen van de behandelde varianten van beslisbomen,FSMs en behavior trees en weet waarom ze zo heten
 
 #### Decision trees:
+
 ![](plaatjes/decisiontree.png)
 
 #### FSM:
@@ -308,6 +316,7 @@ FSM states:
 - Activities: should be “naturally” divided over states
 - Difficulties when a character can be in more than one state at the time...
   
+
 #### Behavior trees:
 ![](plaatjes/behaviortree.png)
 
@@ -376,19 +385,110 @@ zie lecture 14 als hier een vraag over komt
 # Tactics, coordination en motion
 
 ### je kent het nut van het gebruik van waypoints voor tactische analyses
+
+Features of waypoints:
+
+- Cover
+- Shooting range
+- Exposure
+- Fleeing possibilities
+- Wetness
+- Heat
+- Space available
+
+Waypoints conclusion: 
+
+- Keep it simple
+- Waypoints can be used to provide info that can be calculated off-line (waypoints can carry numerical info)
+- More dynamic features either give overhead or are already outdated!
+- Balance between keeping info in waypoints and having it calculated by characters
+  
 ### je weet wat influence maps zijn en waarvoor die gebruikt kunnen worden
+
+- Method for (runtime) spatial analysis
+- Matrix representing the game world
+- Each cell stores data for one aspect of that part of the world  (map/level per aspect, map of combinations?)
+- Values of nearby cells are determined by propagation
+-> Map shows the influence of certain objects on each part of the world
+
+![](plaatjes/influencemaps.png)
+
+
 ### je kan, gegeven de influence van objecten en een ’drop-off’ functie, invloeden in een map propageren
+
+![](plaatjes/influencemapvoorbeeld.png)
+
 ### je kan de invloed van verschillende aspecten combineren in een desirability layer en op basis van de gevonden waarden een beslissing nemen (bijv optimale route)
+
+![](plaatjes/desirabilitylayer.png)
+
 ### je begrijpt de werking van eenvoudige cellulaire automaten en hun mogelijke rol in het gebruik van influence maps
+
+![](plaatjes/cellularautomata.png)
 ### je kent voor- en nadelen van het gebruik van influence maps
-### je kent verschillende manieren van het co ̈ordineren van groepen en de voor- en nadelen hiervan
+
+![](plaatjes/influencemapissues.png)
+![](plaatjes/influencemapsummary.png)
+
+### je kent verschillende manieren van het coördineren van groepen en de voor- en nadelen hiervan
+
+1. Fixed patterns
+
+- Problems:
+
+   1. stay in formation
+   2. obstacle avoidance
+   3. bump into other members when turning
+
+2. Emergent patterns
+   
+- Problems:
+
+   1. Get the right pattern for the right situation
+   2. Find the “right” rules to create formation
+   3. Set the parameters
+
+3. Two levels + anchor
+
+- Problems:
+
+   1. Lose the leader
+   2. Anchor point of pattern should be in center of formation
+
+4. Formations with roles
+
+- Problems:
+  
+  1. Get the right character in the right slot
+  2. Slots might be situation dependent (e.g. where is the enemy)
+
+
 ### je weet wat het idee van scripting group actions is en begrijpt waarom timing daar belangrijk is
-### je begrijpt het verschil tussen teamwerk en co ̈ordinatie (Convoy example)
+
+![](plaatjes/scripting.png)
+
+### je begrijpt het verschil tussen teamwerk en coördinatie (Convoy example)
+
+
 ### je kent het globale idee achter SharedPlan en weet waartoe het dient
+
+![](plaatjes/sharedplan.png)
+![](plaatjes/sharedplanrequirements.png)
+
 ### je kent de globale werking van alle kinematic movement algoritmen en steering be- haviours (je hoeft geen code te kunnen reproduceren), je kent de verschillen, en kan voor- en nadelen ervan bedenken
+
+- Seek
+- Flee
+- Arrive
+- Wandering
+  
 ### idem voor verschillende soorten path following
+
 ### je weet het verschil tussen collision detection (pure detectie) en collision avoidance (steering) (hoewel dit onderscheid niet altijd strict gemaakt wordt), en de voor- en nadelen van verschillende detectie methoden
-### je weet het verschil tussen collision avoidance (typisch voor bewegende targets) en ob- stacle avoidance (typisch voor niet-bewegende voorwerpen) (hoewel ook dit onderscheid niet altijd strict gemaakt wordt)
+
+
+### je weet het verschil tussen collision avoidance (typisch voor bewegende targets) en obstacle avoidance (typisch voor niet-bewegende voorwerpen) (hoewel ook dit onderscheid niet altijd strict gemaakt wordt)
+
 ### je kent globaal de methoden voor het combineren van steering behaviours
 ### je kent globaal de methoden om jumping mogelijk te maken, met voor- en nadelen
 
