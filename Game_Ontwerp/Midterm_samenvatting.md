@@ -327,3 +327,27 @@ The map of many endings
 
 String of Pearls map
 - strong narrative path
+
+The true open-world map
+- totally or nearly totally non-linear
+- difficult to maintan a large narrative story
+
+The branch-and-Bottleneck map
+- diverse, fold back, reconverge
+
+Tracking the state of play
+- introduce a state-tracking mechanic
+  - some important choice is remembered and clearly used in a later state of the game
+- Important to keep in mind:
+  - variability does not always translate to substantial value for the player
+  - think about what variable aspect really feels meaningful for a player
+
+
+#### **Meaningful choice**
+
+in order to define a choice made in the game as meaningful, it requires four components:
+1. Awareness
+2. Gameplay Consequences
+3. Reminders
+4. Permanence
+
