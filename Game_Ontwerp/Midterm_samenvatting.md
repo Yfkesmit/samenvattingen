@@ -255,3 +255,75 @@ They formulated and tested three main hypotheses in the initial research.
 
 
 ## 08 (Interactive) Storytelling in Video Games
+
+succesful screenplays:
+1. Setup
+2. Confrontation
+3. Resolution
+   
+Act 1:
+- introduces the world
+- introduces the characters
+- sets the tone
+- conveys essential knowledge
+- often uses plot devices
+- builds up to the inciting incident and first plot point
+
+Characters:
+- protagonist (main)
+- antagonist (evil)
+- deuteragonist (supporting)
+
+Plot device:
+- MacGuffin (pursuit of an object)
+- Plot voucher (object)
+- red herring (derive attention)
+- shoulder angel
+- deus ex machina
+
+inciting incident
+- incident that confonts the main character, leads to the first *plot point*
+
+Plot point
+a) end of first act
+b) life will never be the same
+c) raises dramatic question
+
+Act 2:
+- attempt of the protagonist to resolve the problem
+- protagonist must learn new skills and themself
+  - character development
+- aided by mentors or other support characters
+
+Midpoint:
+- halfway through At II
+- protagonist seems to be do well in achieving the goal but events will conspire to prevent success
+- protagonist will reach their lowest point en wil temporarily give up in despair
+
+Plot points
+- between each of these acts, the paradigm states that there is a plot point
+
+Act 3: Resolution
+- climax
+- after climax: Dénouement
+
+Chekhov's gun:
+“Remove everything that has no relevance to the
+story. If you say in the first chapter that there is a rifle hanging on the wall, in the second or third chapter it absolutely must go off. If it’s not
+going to be fired, it shouldn’t be hanging there.”
+
+![](plaatjes/Herojourney.png)
+
+### Interactive storytelling
+
+Linear chain of events
+- typical form of regular storytelling
+- linear structure can easily feel lika an obstacle course without any *meaningful choice* for the player
+
+#### **Branching narratives**
+
+The map of many endings
+- content-design nightmare
+
+String of Pearls map
+- strong narrative path
