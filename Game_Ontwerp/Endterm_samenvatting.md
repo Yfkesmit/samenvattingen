@@ -108,8 +108,156 @@ VR Haptics
 4. Omni-Directional Treadmills (walking)
 5. Motion Platform/Simulator
 6. Ultimatate Battlefield 3 simulator (2011)
+   
 ## Player types & Game patterns
 
+Studies suggest that most players channel their morality into their avatar and would exect others to do likewise.
+
+### User personas
+Be as specific as possible about which player experience you are designing for.
+
+1. Different players find different kinds of games enjoyable
+2. Different players may enjoy the same game for different reasons
+3. Whether or not a game is enjoyable is relative
+
+User Persona is a representation of the goals and behavior of a hypothesized group of users. In most cases, personas are
+synthesized from data collected from interviews with users
+
+- Name
+- Demographics
+- Personality
+- Biography
+- Motivations
+- Goals
+- Pains
+- Bartle (Social, achiever, explorer, killer)
+
+### Some basics
+
+#### **game patterns**
+Certain game patterns foster & encourage distinct types of play behaviour
+
+Examples:
+- Competing
+- Cooperative play (co-op)
+- Self expression
+
+#### **player skill level**
+
+Games are played by people of different skill level, but need to be enjoyable for all level players.
+
+Novice: guide, get used to game machanics, build up difficulty
+
+Expert: provide fresh activities, content or challenges.
+
+### Player types
+
+Two overarching forms of player segmentation:
+1. Designer theories
+2. Empirical models
+
+#### **Bartle's player types**
+1. Achievers
+   1. Tend to engage in activities only if it contributes to a particular goal
+2. Explores
+   1. Try to find out as much as they can about the game environment
+3. Socializers
+   1. Interested in relatonships with other players and in organizing player
+4. Killers
+   1. Interested in defeating opponents, causing disruption.
+
+*Idea*: Every person typically exhibits traits from all four types when playing a game, but many people tend to lean more heavily toward one of the types
+
+![](plaatjes/bartle.png)
+
+#### **ACE2 model**
+More focus on enjoyment derived from Aesthetics
+
+![](plaatjes/ace2.png)
+
+#### **LeBlanc's taxonomy of game pleasures**
+1. Sensation (aesthetics)
+2. Fantasy
+3. Narrative
+4. Challenge
+5. Fellowship (co-op)
+6. Discovery
+7. Expression (creating)
+8. Submission
+   1. leaving the real world behind
+
+#### **Caillois' patterns of play**
+He found most thinking on lay was too much focused on the concept of *competitiveness*
+
+1. Agôn (Competition)
+2. Alea (Chance)
+3. Mimicary (Simulation or Role Play)
+4. Ilinx (State of Dizziness and Disorder)
+
+Caillois imagines each of the four types of games to exist on a continuum between *spontaneous/free play* and *higly structured rule-based play*
+
+#### **The Big Five personality model**
+
+1. *Openness* to experience
+2. *Conscientiousness*
+3. *Extraversion*
+4. *Agreeableness*
+5. *Neuroticism*
+
+The extent to which personality is expressed within video game environments, is strictly modulated by the *game mechanics*
+
+#### **Yee's gamer motivation profiles**
+
+Motivation types
+- Action
+- Social
+- Mastery
+- Achievement
+- Immersion
+- Creativity
+
+Three clusters of game motivation:
+1. *Action-social cluster*: Excitement, destruction, community, competition
+2. *Mastery-achievement cluster*: Completion, strategy, challenge
+3. *Immersion-creativity cluster*: Story, design, fantasy
+
+Bridges:
+- Discovery
+- Power
+
+Link between Big Five
+- Higher openness -> higher preference for fantasy, story, design and discovery
+- Higher extraversion -> higher preference for excitement, competition and community
+- Higher conscientiousness -> weak correlation with strategy preference
+  
+### Potential biases
+
+#### **Frustration tolerance**
+Frustration is typically defined as “an interference with the occurrence of an instigated goal-response at its proper time in the behaviour sequence”
+- there needs to be a *goal*
+- some type of satisfaction derived from attaining that goal needs to be anticipated
+
+6 main factors that mediate the strenght of the respnse to frustration:
+1. The extent to which an individual expected satisfaction from the attainment of the goal
+2. The extent to which the goal was blocked
+3. The number of in-sequence frustrated responses
+4. The legitimacy of the goal block
+5. The deliberateness of a block
+6. The anticipaton of failure
+
+frustration can cause:
+- decreased attention
+- reduced memory retention
+- reduced learning ability
+- decreased motivation to resolve a state of being stuck
+
+#### **Other potential biases**
+
+- Overconfidence effect
+- Illusion of control
+- Fundamental attribution error
+- Peak-end rule
+  
 ## The Moral Significance of Virtual Violence
 
 ### Literatuur: 
