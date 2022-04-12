@@ -648,8 +648,203 @@ Beta phase
 - UX requires Usability Testing
 
 ## User Retention & Games as a Service
+How do successful companies create products people can't put down?
 
-### Literatuur
+habits: "automatic behaviors triggered by situational cues".
+
+### The Hook model
+
+![](plaatjes/Hookmodel.png)
+- Trigger
+- Action
+  - the ease of performing an action
+  - the psychological motivation to do it
+- Variable reward
+  - predictable ones don't create desire
+- Investment
+
+### The Habit Zone
+Old habits die hard
+
+*Reminiscence bump*: increased recollection for events that occurred during their adolescence and early adulthood 
+
+**Implications to Game design**
+Should we forget about innovative game design? No, sell your hook.
+
+For new behaviors toreally take hold, they must occur often.
+
+For an infrequent action to become a habit, the user must perceive a high degree of utility, either from gaining pleasure or avoiding pain.
+
+Habit-forming potential can be determined by plotting two factors:
+1. Frequency
+2. Perceived utility
+
+Painkillers: solve obvious need
+Vitamins: Appeal to the user's emotional rather than functional needs
+
+A habit is when *not* doing an action causes a bit of discomfort
+
+### Triggers
+a trigger is the actuator of behavior
+
+Two types:
+- external
+  - embedded with information
+- internal
+
+Enemy designs should communicate to the player what to expect.
+
+**important**: too many choices or irrelevant options can cause hesitation, confusion or abandonment.
+
+Reducing the thinking increases the likelihood of the desired behavior occurring.
+
+#### **External triggers**
+1. Paid triggers (new users)
+2. Earned triggers (media promo)
+3. Relationship triggers (mond tot mond promo)
+4. Owned triggers (app icon, notificaties)
+
+#### **Internal triggers**
+Internal triggers manifest automatically in your mind
+
+Goal: connecting internal triggers with a product.
+Emotions are powerful internal triggers
+Feelings of boredom, loneliness, frustration, confusion and indecisiveness often create a slight pain or irritation.
+
+Positive emotions can also serva s internal triggers
+- the need to satiate boredom
+- maintain social connections
+
+increased frequency of negative emotions leads to increased seeking relief by turning to technology to lift their mood.
+
+#### **Building for triggers**
+Understand what your user's internal triggers are.
+Look into the discrepancy between what people actually do vs what they wish they did.
+
+User narratives, empathy maps can help.
+- Think/Feel
+- Hear
+- Say/Do
+- See
+- Pains
+- Gains
+
+5 Whys method.
+
+### Actions
+to initiate action, doing must be easier than thinkin
+
+Three requirements:
+1. motivation
+2. ability
+3. trigger
+
+**Motivation**
+motivation defines the level of desire to take that action
+Positive motivators: relatedness, competence, autonomy
+Negative motivators also powerful, like 
+
+**Ability**
+Any technology or product that significantly reduces the steps to complete a task will enjoy high adoption rates by the people it assists
+1. understand
+2. lay out the steps
+3. remove steps until simplest possible process
+
+Focus on what is making it difficult for the user to accomplish the desired action
+
+Always start with ability increasing first.
+
+**Three heuristics**
+1. Scarcity Effect
+2. The Framing Effect
+3. The Endowed Progress Effect
+
+### Variable reward
+what draws us to act is not sensation we receive from the reward itself, but the need to alleviate the craving for that reward.
+We become less excited by the experience if we know what will happen next.
+
+Applies to the whole game, game content and game mechanics.
+
+### Reward types
+variability increases activity in the nucleas accumbens and spikes levels of the neurotransmitter dopamine.
+
+Three types of rewards:
+1. Rewards of the tribe
+   1. social rewards
+2. Rewards of the hunt
+   1. pursuit of resources
+3. Rewards of the self
+   1. we are driven to conquer obstacles
+   2. fueled by the desire to gain a sense of competence
+
+**Important considerations for designing reward systems**
+- Figure out what matters to your user.
+- Gamification of a poor game design, typically still leaves a poor design.
+- Maintain a sense of autonomy
+- Beware of finite variability
+
+### Investment
+Escalation of commitment: The more users invest time and effort into a product or service, the more they value it. In fact, there is ample evidence to suggest that our labor leads to love.
+
+We irrationally value our efforts (IKEA effect)
+
+We seek to be conistent with our past behaviour.
+
+We avoid cognitive dissonance.
+- When two actions or ideas are not psychologically consistent with each other, people do all in their power to change them until they become consistent
+
+Implication to game design: rationalization, in which we change our attitudes and beleif to adapt to a situation.
+
+Investments are about the anticipation of longer-term rewards, not immediate gratification.
+
+asking users to do a bit of work comes after users have received variable rewards, not before.
+
+**Storing value**
+well designed products utilize the investmenst that users make in the product to further enhance the experience.
+- personalizing the content
+- including social connections
+- skill
+
+**Future trigger**
+use future triggers to re-engage users, like notifications.
+## A Review on the Proteus Effect in Virtual Environments and Video Gemas
+
+The Proteus effect suggests that users of a virtual environment adapt their behavior to the characteristics of their respective avatars.
+
+### Introduction
+The majority of studies conclude that there is a relationship between the video games played and the respective player's behavior.
+
+Game designers tend to assume that players create a separate personality and identity while playing.
+Is the avatar somehow reflected in the personality of the player?
+
+Users in virtual environments adapted their behaviors to their respective avatar's appearance. (Proteus effect)
+
+### State of the art
+*Self-perception theory*:
+people derive identity cues and attitudes from their analysis of their own past behavior and circumstances
+
+*Classic deindividuation theory*: 
+this theory assumes that in group situations there is an increase in impulsive actions that deviate from the norm
+
+*SIDE model*: 
+this model assumes that deindividuation is a depersonalization in the sense of a process of self-categorizations, thereby challenging the classic deindividuation theory.
+
+*Avatars and virtual embodiment*
+Avatars, as virtual representations of a user or player, can cause identity shifts. These influences can be used to
+- promote altruistic behavior
+- reduce fears
+- improve the mood
+- raise environmental awareness
+- reduce prejudice
+- reinforce prejudices and hostility.
+
+### Review of the Proteus effect
+
+### Discussion
+
+### Conclusion
+
+
 
 ## Player Experience Modeling
 
