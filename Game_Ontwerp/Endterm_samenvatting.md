@@ -453,7 +453,199 @@ Concern-focused research concentrating  on violent video games:
 
 ## AI & Video Games
 
+### Have video games *changed* throughout the past two decades?
+Yes, much prettier now (graphics enzo)
+
+What is needed to evoke the *illusion* of natural behaviour in games?
+- No obvious cheating
+- Variety
+- Avoiding stupidity
+- Using the environment
+- Self-correction
+- Artificial creativity
+
+### Challenges for *Artificial Intelligence* in video games
+
+Classic challenges for AI in video games
+- vast state-space complexity
+  - How bigger the game, the more states there are
+- vast action-space complexity
+  - The more states, the more actions you can do.
+- Game-theoretical classification
+  - Hundreds of distinct entities, who modify game state asynchronously, and whose decision models are unknown
+- Dynamically changing environment
+- Decision making under severe time constraints.
+  - Decisions have to be made real-time, under severe time constraints.
+
+Classic AI tech no longer worky
+
+### *Learning* what to do, how to respond, etc.
+
+**Tricks and Cheats**
+- Establish the illusion of intelligent behaviour
+
+**Scripts**
+- Static, long, complex and prone to programming mistakes
+  
+**Incremental adaptive game AI**
+![](plaatjes/incrementalAI.png)
+
+**There is a catch...**
+AI can learn effective behaviour for *many* video games,
+but learning *during* actual gameplay
+1. requires an inconventiently large number of trials
+2. is generally computationally expensive
+3. usually generates many inferior solutions before coming up with a good solution
+
+Goal = learning how to *entertain/motivate* the individual human player
+
+### *Learning* who the human player is
+
+Types of **Player Modelling**
+![](plaatjes/playermodeling.png)
+
+We have AI that (1) can learn adequate behaviour, and (2) can model the human player; *now what?*
+
+### Creating *personalised* game experiences?
+A personalised game is a game that utilises player models for the purpose of tailoring the game experience to the individual player.
+
+**Motivation**
+1. psychological foundation
+2. effect on player satisfaction
+3. contribution to game development practise
+4. instrumental to achieving industry ambitions
+
+Player models
+- Game mechanics adaptation??
+- Mission adaptation
+- Space adaptation
+- character adaptation
+  - e.g. behaviour, appereance
+- narrative adaptation
+- music adaptation
+
+**Goal**: assessing *on-demand*, *just-in-time*, and *unobtrusively* which game adaptations are required for optimising the individual player's experience.
+
+**Game personalisation**
+1. Learn a *feedback model* from actual gameplay sessions
+2. Employ the model for decision making at run-time
+
+**Results**
+1. Approach learns appropriate challenge level within ~30 secs.
+2. Game adaptations can be made specifically to certain game content
+3. Human participants consistently prefer the personalised game over an identical static game.
+
+**Can we do effective game personalisation from solely *Facial Expression Analysis***
+
+findings:
+1. Rapid gameplay optimisations is feasible
+2. under controlled conditions, human participants consistently prefer the personalised system
+3. There is no such thing as controlled conditions for the home user of a video game
+4. Facial expression analysis for games can be made more accurate by *tracking gaze* and *head movement*
+
+### Automated game design!
+
+1. Mission Sketch
+2. Mission Structure with required Rooms
+3. Spatial Construction
+4. Actual Game Space
+
+Can we replace the Game Designer with an Algorithm?
+- No; Our AI is not good enough yet
+- No; there will always be a need for human supervision
+- Yes; Lots of repetitive and low skilled design tasks will become automated
+  
 ## UX Design in Video Games
+
+### Common misconceptions
+
+**UX is making good UIs**
+
+Instead, UX encompasses *all* aspects of game design
+- Controller input
+- Signposting in level
+- Look and feel of weapons
+- Designing UIs
+  
+**Good UX should make things easier**
+Ux should **not** alter the intended challenge
+
+**Anyone can do it it's so obvious!**
+Good UX is:
+Easy to understand, difficult to design
+
+### User Experience Design
+What is User Experience Design (UX)?
+
+UX tries to improve the relation between human and technology, and encompasses the following fields:
+
+- Usability
+- Interaction
+- Visuals
+- Information structure
+
+Main goal of UX in games:
+*Making games more fun, but in specific ways.*
+
+In games *usability design* is about giving the players the tools to achieve their goals.
+
+What to do:
+1. Read about design principles
+2. Do **usability testing**
+
+### UX Design Principles
+A design principle is a concept in UX where the design consequences are well understood.
+
+1. Affordance
+   - The physical shape of an object tells about its function
+2. Mapping
+   - The relationship between controls and their effects should be clear.
+3. Nudging
+   - Modifying behaviour based on known psychological principles.
+4. Progressive Disclosure
+   - Hiding information to avoid overwhelming the player, and make choices more meaningful
+5. Conventions
+   - The user's experience is based on prior knowledge and experience
+6. Proximity
+   - Grouping objects trumps differences in color.
+7. Visuospatial Resonance
+   - Different features of an image are visible at different distances.
+8. Anticipation
+   - Correct timing makes weapons, spells and abilities more satisfying to use.
+9. Feedback
+   - User input should be met with an appropriate response
+
+### Usability Testing
+Allow *other* people to play your game while you observe *inconspicuously*
+
+The mantras:
+- You don't know what your player needs
+- accept criticism
+- minimize experimenter bias
+- don't make me think
+- there is no panacea (one solution to all problems)
+
+Developer phase
+- be critical
+- get rid of obvious bugs
+- prefer *signposts* over crashes
+
+Usability Testing phase
+- Observe them playing the game, while thinking aloud.
+- Emphasize player can't make mistakes/doesn't need to win
+
+Alpha phase
+- Have something in place for the players to give immediate feedback
+- Start collecting metrics.
+
+Beta phase
+- Focus on metrics
+- *expectation management*
+
+### Conclusion
+- UX enxompasses the whole design of the game
+- UX tries to bridge the player and the game
+- UX requires Usability Testing
 
 ## User Retention & Games as a Service
 
