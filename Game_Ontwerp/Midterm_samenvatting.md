@@ -351,3 +351,13 @@ in order to define a choice made in the game as meaningful, it requires four com
 3. Reminders
 4. Permanence
 
+
+### Literatuur
+
+PINE: Playable Interactive Narrative Experience
+- Narrative aestheetics and contemplative emotional preoccupations
+
+AAA games: Art, Audio and Animation
+
+ludonarrative dissonance: This is when the player has direct control (agency) over a character, they can make
+the character act in ways which do not fit the narrative setting;
